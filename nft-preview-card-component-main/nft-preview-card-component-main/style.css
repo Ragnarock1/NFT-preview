@@ -1,0 +1,123 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit';
+}
+
+hr{
+  border-style: solid;
+  border-color: hsl(215, 32%, 27%);
+  width: 90%;
+  border-width: 1px;
+}
+
+.container{
+  background-color: hsl(216, 50%, 16%);
+  width: 16%;
+  margin: 10% auto;
+  border-radius: 3%;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+}
+
+
+
+.eq-image{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  position: relative;
+
+}
+
+.eq-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 3%;
+  overflow: hidden;
+
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 3%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+.eq-image:hover .overlay{
+  opacity: 1;
+
+}
+.icon{
+  position: absolute;
+  left: 42%;
+  top: 42%;
+
+}
+
+h6{
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  margin-top: 5%;
+
+}
+h6:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.div-container{
+  width: 90%;
+  margin: 0 auto;
+}
+#description p{
+  color: hsl(215, 51%, 70%);
+  line-height: 1.5rem;
+}
+
+#info{
+  margin: 5% auto;
+}
+.eth-text{
+  float: left;
+  color: hsl(178, 100%, 50%);
+  margin: 0;
+}
+.clock-text{
+  text-align: right;
+  color: hsl(215, 51%, 70%);
+  margin: 0;
+}
+#creator p{
+  color: hsl(215, 51%, 70%);
+  padding-top: 2%;
+}
+#creator img{
+  width: 32px;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 1px;
+
+}
+#creator a{
+  color: white;
+  text-decoration: none;
+}
+#creator a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+@media (max-width: 375px) {
+    .container{
+      width: 60%;
+    }
+
+}
